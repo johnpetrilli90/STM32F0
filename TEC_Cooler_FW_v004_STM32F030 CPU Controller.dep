@@ -1,0 +1,126 @@
+Dependencies for Project 'TEC_Cooler_FW_v004', Target 'STM32F030 CPU Controller': (DO NOT MODIFY !)
+F (.\startup_stm32f030.s)(0x5714279D)(--cpu Cortex-M0 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx--list .\linker\startup_stm32f030.lst --xref -o .\hex\startup_stm32f030.o --depend .\hex\startup_stm32f030.d)
+F (.\system_stm32f0xx.c)(0x5714279D)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\system_stm32f0xx.o --omf_browse .\hex\system_stm32f0xx.crf --depend .\hex\system_stm32f0xx.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+F (.\RTX_Conf_CM.c)(0x571BB45C)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\rtx_conf_cm.o --omf_browse .\hex\rtx_conf_cm.crf --depend .\hex\rtx_conf_cm.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532CD408)
+I (.\Include\WatchDog.h)(0x571BB45C)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (C:\Keil\ARM\RV31\INC\RTX_lib.c)(0x532CD408)
+F (.\Source\ADC.c)(0x5719BFC6)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\adc.o --omf_browse .\hex\adc.crf --depend .\hex\adc.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (.\Include\ADC.h)(0x5719B08F)
+F (.\Source\ClockConfig.c)(0x57142F6B)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\clockconfig.o --omf_browse .\hex\clockconfig.crf --depend .\hex\clockconfig.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (.\Include\ClockConfig.h)(0x57142F6B)
+F (.\Source\Communication.c)(0x571BB64A)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\communication.o --omf_browse .\hex\communication.crf --depend .\hex\communication.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (.\Include\Communication.h)(0x56DB3437)
+F (.\Source\Flash.c)(0x571BDA2A)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\flash.o --omf_browse .\hex\flash.crf --depend .\hex\flash.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (.\Include\Flash.h)(0x571BD703)
+F (.\Source\InitIO.c)(0x571C16AB)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\initio.o --omf_browse .\hex\initio.crf --depend .\hex\initio.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (.\Include\InitIO.h)(0x571BC655)
+F (.\Source\IRQn.c)(0x571C2045)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\irqn.o --omf_browse .\hex\irqn.crf --depend .\hex\irqn.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532CD408)
+I (.\Include\IRQn.h)(0x56E49DED)
+I (.\Include\UART.h)(0x56DCAD60)
+F (.\Source\Main.c)(0x571C1F01)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\main.o --omf_browse .\hex\main.crf --depend .\hex\main.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532CD408)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C8A654)
+I (.\Include\ADC.h)(0x5719B08F)
+I (.\Include\Communication.h)(0x56DB3437)
+I (.\Include\UART.h)(0x56DCAD60)
+I (.\Include\InitIO.h)(0x571BC655)
+I (.\Include\IRQn.h)(0x56E49DED)
+I (.\Include\WatchDog.h)(0x571BB45C)
+I (.\Include\PID.h)(0x571AE1A5)
+I (.\Include\Flash.h)(0x571BD703)
+I (.\Include\ClockConfig.h)(0x57142F6B)
+F (.\Source\PID.c)(0x571BBDC6)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\pid.o --omf_browse .\hex\pid.crf --depend .\hex\pid.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (.\Include\PID.h)(0x571AE1A5)
+F (.\Source\UART.c)(0x571C1A4F)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\uart.o --omf_browse .\hex\uart.crf --depend .\hex\uart.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (.\Include\UART.h)(0x56DCAD60)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532CD408)
+F (.\Source\WatchDog.c)(0x571BD92D)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F030-o .\hex\watchdog.o --omf_browse .\hex\watchdog.crf --depend .\hex\watchdog.d)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x570AC39D)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532CD8C2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CD8C2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CD8C2)
+I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532CD45C)
+I (.\Include\WatchDog.h)(0x571BB45C)
+F (.\Include\ADC.h)(0x5719B08F)()
+F (.\Include\ClockConfig.h)(0x57142F6B)()
+F (.\Include\Communication.h)(0x56DB3437)()
+F (.\Include\Flash.h)(0x571BD703)()
+F (.\Include\InitIO.h)(0x571BC655)()
+F (.\Include\IRQn.h)(0x56E49DED)()
+F (.\Include\LED.h)(0x5714279D)()
+F (.\Include\PID.h)(0x571AE1A5)()
+F (.\Include\UART.h)(0x56DCAD60)()
+F (.\Include\WatchDog.h)(0x571BB45C)()
+F (.\ReadMe.txt)(0x571BD92D)()
